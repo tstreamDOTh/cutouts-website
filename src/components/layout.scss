@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@500&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: #1b2236;
+  padding: 4rem;
+  color: white;
+  font-family: Mulish;
+  font-size: 1.4rem;
+}
+
+::selection {
+  color: white;
+  background: #007bff;
+}

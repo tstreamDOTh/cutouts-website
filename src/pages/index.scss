@@ -1,0 +1,155 @@
+section {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 200rem;
+  margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #1b2236;
+  max-width: 70rem;
+  margin: auto;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #767b88;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  font-family: "Mulish", sans-serif;
+  font-size: 2rem;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 1rem;
+  }
+  &:focus{
+      outline: 4px solid #89c2ff;
+  }
+}
+
+.banner {
+  img {
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 200rem;
+  }
+}
+
+.features {
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 2rem;
+    width: calc(100% - 4rem);
+    max-width: 100rem;
+    h2{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 4rem;
+
+  .logo {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    height: 4rem;
+  }
+
+  .hero-banner {
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 40%;
+      z-index: -1;
+      max-width: 200rem;
+      object-fit: contain;
+    }
+  }
+
+  .info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5rem;
+    width: 50%;
+    h1 {
+      margin: 0;
+      text-align: left;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 1rem;
+      text-align: left;
+    }
+
+    button {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  h1,
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .hero-section {
+    .logo {
+      position: unset !important;
+      padding: 4rem 0 0 4rem;
+    }
+
+    .hero-banner {
+      img {
+        position: unset;
+        width: 100%;
+      }
+    }
+
+    .info {
+      position: unset;
+      transform: unset;
+      width: calc(100% - 8rem);
+      padding: 4rem;
+    }
+  }
+
+  .features {
+    display: none;
+  }
+}
