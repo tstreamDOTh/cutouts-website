@@ -19,28 +19,30 @@ const IndexPage = () => {
             more in just a couple clicks
           </p>
 
-          <a
-            href="https://chrome.google.com/webstore/detail/cutouts/jcjaaeialhaakckfpmpkipnjeiggekib?hl=en-GB&authuser=0"
-            target="_blank"
-          >
-            <button>
-              <img src="images/chrome.svg" />
-              Install on Chrome
-            </button>
-
-            {/* <a
+          <div className="cta">
+            <a
+              href="https://chrome.google.com/webstore/detail/cutouts/jcjaaeialhaakckfpmpkipnjeiggekib?hl=en-GB&authuser=0"
+              target="_blank"
+            >
+              <button>
+                <img src="images/chrome.svg" />
+                Install on Chrome
+              </button>
+            </a>
+            <a
               href="https://www.producthunt.com/posts/cutouts?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cutouts"
               target="_blank"
+              style={{ width: "250px", height: "45px" }}
             >
               <img
                 src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=235365&theme=light"
                 alt="Cutouts - The Pinterest for your clipboard. Be inspired & productive | Product Hunt Embed"
-                style="width: 250px; height: 54px;"
+                style={{ width: "250px", height: "45px" }}
                 width="250px"
-                height="54px"
+                height="45px"
               />
-            </a> */}
-          </a>
+            </a>
+          </div>
         </div>
 
         <picture className="hero-banner">
@@ -87,15 +89,30 @@ const IndexPage = () => {
           data never leaves your system and is always secure. To add a cherry on
           top, Cutouts is free forver!
         </p>
-        <a
-          href="https://chrome.google.com/webstore/detail/cutouts/jcjaaeialhaakckfpmpkipnjeiggekib?hl=en-GB&authuser=0"
-          target="_blank"
-        >
-          <button>
-            <img src="images/chrome.svg" />
-            Install on Chrome
-          </button>
-        </a>
+        <div className="cta">
+          <a
+            href="https://chrome.google.com/webstore/detail/cutouts/jcjaaeialhaakckfpmpkipnjeiggekib?hl=en-GB&authuser=0"
+            target="_blank"
+          >
+            <button>
+              <img src="images/chrome.svg" />
+              Install on Chrome
+            </button>
+          </a>
+          <a
+            href="https://www.producthunt.com/posts/cutouts?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cutouts"
+            target="_blank"
+            style={{ width: "250px", height: "45px" }}
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=235365&theme=light"
+              alt="Cutouts - The Pinterest for your clipboard. Be inspired & productive | Product Hunt Embed"
+              style={{ width: "250px", height: "45px" }}
+              width="250px"
+              height="45px"
+            />
+          </a>
+        </div>
       </section>
     </Layout>
   )
