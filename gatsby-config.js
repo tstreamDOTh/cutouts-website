@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Cutouts`,
-    description: `Chrome extension for managing clipboard`,
-    author: `@tstreamDOTh`,
+    description: `Your smart clipboard organiser for the web. Stay organised, be productive.`,
+    author: `Thiyagaraj T`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

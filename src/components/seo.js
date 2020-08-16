@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://res.cloudinary.com/ddbxzcb7k/image/upload/v1597567379/s1_ow6pnb.png`,
+          content: `https://res.cloudinary.com/ddbxzcb7k/image/upload/v1597567700/og-img_daybfz.png`,
         },
       ].concat(meta)}
     />
