@@ -3,6 +3,7 @@ module.exports = {
     title: `Cutouts`,
     description: `Your smart clipboard organiser for the web. Stay organised, be productive.`,
     author: `Thiyagaraj T`,
+    siteUrl: `https://cutouts.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,5 +28,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`,
   ],
 }

@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^2.3.13",
+    "gatsby-plugin-sitemap": "^2.4.11",
     "prettier": "2.0.5"
   },
   "keywords": [
