@@ -66,21 +66,36 @@ const IndexPage = () => {
         </picture>
       </section>
 
-      {/* <section>
-        <h2>Everyone can use cutouts</h2>
-        <article>
-          <h3>Designers</h3>
-          <p> Description</p>
-        </article>
-        <article>
-          <h3>Designers</h3>
-          <p> Description</p>
-        </article>
-        <article>
-          <h3>Designers</h3>
-          <p> Description</p>
-        </article>
-      </section> */}
+      <section className="personas">
+        <h2>Anyone can use Cutouts</h2>
+
+        <div className="persona">
+          <article>
+            <img src="images/ostrich.jpg" />
+            <h3>Writers</h3>
+            <p>
+              Save text highlights from the web and collect inspiration & data
+              for your next big article or award winning ad.
+            </p>
+          </article>
+          <article>
+            <img src="images/toucan.jpg" />
+            <h3>Designers</h3>
+            <p>
+              Save images & videos and generate moodboards on the fly. Also
+              never be short of color inspirations
+            </p>
+          </article>
+          <article>
+            <img src="images/penguin.jpg" />
+            <h3>Researchers</h3>
+            <p>
+              Collect data and find unexpected connections between bits of
+              information. Never move away from your active tab.
+            </p>
+          </article>
+        </div>
+      </section>
 
       <section className="secure">
         <h2>Cutouts Is Free and Secure!</h2>

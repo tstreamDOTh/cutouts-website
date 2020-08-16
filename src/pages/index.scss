@@ -5,13 +5,22 @@ section {
   margin: auto;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 h1,
 h2 {
   font-size: 3rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #1b2236;
+  max-width: 70rem;
+  margin: auto;
+}
+
+h3 {
+  font-size: 2rem;
   text-align: center;
   font-family: "Merriweather", serif;
   color: #1b2236;
@@ -41,18 +50,18 @@ button {
   img {
     margin-right: 1rem;
   }
-  &:focus{
-      outline: 4px solid #89c2ff;
+  &:focus {
+    outline: 4px solid #89c2ff;
   }
 }
 
-.cta{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    a{
-        // margin-right: 1rem;
-    }
+.cta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  a {
+    // margin-right: 1rem;
+  }
 }
 
 .banner {
@@ -69,19 +78,19 @@ button {
   }
 }
 
-.secure{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    padding: 2rem;
-    width: calc(100% - 4rem);
-    max-width: 100rem;
-    h2{
-        margin: 0;
-        margin-bottom: 2rem;
-    }
+.secure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 2rem;
+  width: calc(100% - 4rem);
+  max-width: 100rem;
+  h2 {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
 }
 
 .hero-section {
@@ -131,6 +140,37 @@ button {
   }
 }
 
+.personas {
+  margin-top: 5rem;
+  min-height: 50vh;
+  .persona {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+
+    article {
+      max-width: 30rem;
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+
+      img {
+        width: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 700px) {
   h1,
   h2 {
@@ -163,16 +203,30 @@ button {
     display: none;
   }
 
-  .cta{
-      flex-direction: column-reverse;
+  .cta {
+    flex-direction: column-reverse;
 
+    a {
+      margin-bottom: 1rem;
 
-      a{
-          margin-bottom: 1rem;
-
-          button{
-            width: 21rem;
-          }
+      button {
+        width: 21rem;
       }
+    }
+  }
+
+  .personas {
+
+
+    .persona{
+        flex-direction: column;
+        article{
+            max-width: unset;
+            width: calc(100% - 4rem);
+            margin: 2rem;
+        }
+    }
+
+
   }
 }
