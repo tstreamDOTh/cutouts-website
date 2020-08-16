@@ -4,13 +4,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "@reach/router";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Cutouts" />
       <section className="hero-section">
-        <img className="logo" src="images/logo.png" />
+        <Link to="/">
+          <img className="logo" src="images/logo.png" />
+        </Link>
         <div className="info">
           <h1>Snip content from across the web & save them at one place</h1>
           <p>

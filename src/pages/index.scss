@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1,
 h2 {
   font-size: 3rem;
@@ -92,8 +97,8 @@ button {
     margin-bottom: 0 !important;
   }
 
-  .cta{
-      margin-top: 2rem;
+  .cta {
+    margin-top: 2rem;
   }
 }
 
@@ -167,8 +172,22 @@ button {
         object-fit: cover;
         margin-bottom: 1.6rem;
       }
-
     }
+  }
+}
+
+.pnp {
+  width: calc(100% - 10rem);
+  padding: 0 5rem;
+  p {
+    text-align: left !important;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: left !important;
+    margin: 0;
   }
 }
 
@@ -217,17 +236,13 @@ button {
   }
 
   .personas {
-
-
-    .persona{
-        flex-direction: column;
-        article{
-            max-width: unset;
-            width: calc(100% - 4rem);
-            margin: 2rem;
-        }
+    .persona {
+      flex-direction: column;
+      article {
+        max-width: unset;
+        width: calc(100% - 4rem);
+        margin: 2rem;
+      }
     }
-
-
   }
 }

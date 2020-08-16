@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.scss"
+import { Link } from "@reach/router"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +29,12 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer>Copyright © {new Date().getFullYear()} | Cutouts App</footer>
+        <footer>
+          Copyright © {new Date().getFullYear()} Cutouts App |{"  "}
+          <Link to="privacy" style={{ textDecoration: "none" }}>
+            Privacy Policy
+          </Link>
+        </footer>
       </div>
     </>
   )
