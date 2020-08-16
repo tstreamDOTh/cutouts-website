@@ -18,9 +18,9 @@ const IndexPage = () => {
           <h1>Pinterest board for your Clipboard</h1>
           <p>
             Cutouts brings you the smartest clipboard organiser for the web ever
-            built. Save images, text & videos with a click and skip the worry
-            about keeping track. Cutouts makes it simple to organise your web
-            using ML on the browser to make your search relevant.
+            built. Save images, text & videos with a click. Escape the worry of
+            keeping track. Cutouts makes it simple to organise your web using ML
+            on the browser to make your search relevant.
           </p>
 
           <div className="cta">
@@ -77,35 +77,35 @@ const IndexPage = () => {
             <img src="images/ostrich.jpg" />
             <h3>Writers</h3>
             <p>
-              Save text highlights from the web and collect inspiration & data
-              for your next big article or award winning ad.
+              Save text highlights from the web. Collect inspiration & data for
+              your next big article or award winning ad.
             </p>
           </article>
           <article>
             <img src="images/toucan.jpg" />
             <h3>Designers</h3>
             <p>
-              Save images & videos and generate moodboards on the fly. Also
-              never be short of color inspirations
+              Save images & videos to generate moodboards on the fly. Also never
+              be short of color inspirations
             </p>
           </article>
           <article>
             <img src="images/penguin.jpg" />
             <h3>Researchers</h3>
             <p>
-              Collect data and find unexpected connections between bits of
-              information. Never move away from your active tab.
+              Collect data & find unexpected connections between bits of
+              information, never moving away from your active tab.
             </p>
           </article>
         </div>
       </section>
 
       <section className="secure">
-        <h2>Cutouts Is Free and Secure!</h2>
+        <h2>Cutouts Is Free & Secure!</h2>
         <p>
-          Cutouts saves your collection on your own local storage. Hence, your
-          data never leaves your system and is always secure. To add a cherry on
-          top, Cutouts is free forever!
+          Cutouts saves your collection on your local storage. Hence, your data
+          never leaves your system & is always secure. To add a cherry on top,
+          Cutouts is free forever!
         </p>
         <div className="cta">
           <a
