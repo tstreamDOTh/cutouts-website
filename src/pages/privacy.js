@@ -9,7 +9,7 @@ import "./index.scss"
 export default () => {
   return (
     <Layout>
-      <SEO title="Cutouts" />
+      <SEO title="Cutouts | Privacy Policy" />
       <Link to="/">
         <img
           src="images/logo.png"

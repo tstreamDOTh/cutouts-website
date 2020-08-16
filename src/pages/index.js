@@ -4,7 +4,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "@reach/router";
+import { Link } from "@reach/router"
 
 const IndexPage = () => {
   return (
@@ -15,11 +15,12 @@ const IndexPage = () => {
           <img className="logo" src="images/logo.png" />
         </Link>
         <div className="info">
-          <h1>Snip content from across the web & save them at one place</h1>
+          <h1>Pinterest board for your Clipboard</h1>
           <p>
-            Cutouts let you pick content from websites and store them into your
-            own collection. Save images, text, videos, color codes, links and
-            more in just a couple clicks
+            Cutouts bring you the smartest clipboard organiser for the web ever
+            built. Save images, text & videos with one click & do not worry
+            about keeping a track. Cutouts makes it simple to organise your web
+            using ML on the browser to make your search relevant.
           </p>
 
           <div className="cta">
@@ -53,8 +54,8 @@ const IndexPage = () => {
           <img src="images/hero.jpg" alt="" />
         </picture>
       </section>
-      <section>
-        <h2>Find anything interesting worth saving for later? Simply Cutout</h2>
+      <section className="how">
+        <h2>Found something interesting? Simply Cutout!</h2>
         <picture className="banner">
           <source srcset="images/how-m.jpg" media="(max-width: 700px)" />
           <img src="images/how.jpg" alt="" />
@@ -62,14 +63,14 @@ const IndexPage = () => {
       </section>
 
       <section className="features">
-        <h2>The Smart Clipboard Manager You Deserve</h2>
+        <h2>The smart clipboard manager you deserve.</h2>
         <picture className="banner">
           <img src="images/what.jpg" alt="" />
         </picture>
       </section>
 
       <section className="personas">
-        <h2>Anyone can use Cutouts</h2>
+        <h2>Anyone can use Cutouts!</h2>
 
         <div className="persona">
           <article>
