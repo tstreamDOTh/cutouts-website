@@ -17,9 +17,9 @@ const IndexPage = () => {
         <div className="info">
           <h1>Pinterest board for your Clipboard</h1>
           <p>
-            Cutouts bring you the smartest clipboard organiser for the web ever
-            built. Save images, text & videos with one click & do not worry
-            about keeping a track. Cutouts makes it simple to organise your web
+            Cutouts brings you the smartest clipboard organiser for the web ever
+            built. Save images, text & videos with a click and skip the worry
+            about keeping track. Cutouts makes it simple to organise your web
             using ML on the browser to make your search relevant.
           </p>
 
@@ -105,7 +105,7 @@ const IndexPage = () => {
         <p>
           Cutouts saves your collection on your own local storage. Hence, your
           data never leaves your system and is always secure. To add a cherry on
-          top, Cutouts is free forver!
+          top, Cutouts is free forever!
         </p>
         <div className="cta">
           <a
