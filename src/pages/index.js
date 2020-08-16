@@ -61,7 +61,6 @@ const IndexPage = () => {
       <section className="features">
         <h2>The Smart Clipboard Manager You Deserve</h2>
         <picture className="banner">
-          <source srcset="images/what-m.jpg" media="(max-width: 700px)" />
           <img src="images/what.jpg" alt="" />
         </picture>
       </section>

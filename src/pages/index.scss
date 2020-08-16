@@ -83,7 +83,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 40vh;
   padding: 2rem;
   width: calc(100% - 4rem);
   max-width: 100rem;
@@ -142,7 +142,7 @@ button {
 
 .personas {
   margin-top: 5rem;
-  min-height: 50vh;
+  min-height: 40vh;
   .persona {
     display: flex;
     margin-top: 4rem;
