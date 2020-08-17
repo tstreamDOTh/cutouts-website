@@ -34,13 +34,12 @@ const IndexPage = () => {
               </button>
             </a>
             <a
-              href="https://www.producthunt.com/posts/cutouts?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cutouts"
+              href="https://www.producthunt.com/posts/cutouts?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-cutouts"
               target="_blank"
-              style={{ width: "250px", height: "45px" }}
             >
               <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=235365&theme=light"
-                alt="Cutouts - The Pinterest for your clipboard. Be inspired & productive | Product Hunt Embed"
+                src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=235365&theme=light&period=daily"
+                alt="Cutouts - The Pinterest for your clipboard | Product Hunt Embed"
                 style={{ width: "250px", height: "45px" }}
                 width="250px"
                 height="45px"
@@ -118,13 +117,12 @@ const IndexPage = () => {
             </button>
           </a>
           <a
-            href="https://www.producthunt.com/posts/cutouts?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cutouts"
+            href="https://www.producthunt.com/posts/cutouts?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-cutouts"
             target="_blank"
-            style={{ width: "250px", height: "45px" }}
           >
             <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=235365&theme=light"
-              alt="Cutouts - The Pinterest for your clipboard. Be inspired & productive | Product Hunt Embed"
+              src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=235365&theme=light&period=daily"
+              alt="Cutouts - The Pinterest for your clipboard | Product Hunt Embed"
               style={{ width: "250px", height: "45px" }}
               width="250px"
               height="45px"
